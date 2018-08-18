@@ -11,7 +11,7 @@ import pyxel
 from .mobs import Obstacle, Ship
 
 
-class App:
+class Xagon:
     # App window
     width = 200
     height = 150
@@ -225,4 +225,4 @@ class App:
 
 
 if __name__ == "__main__":
-    App()
+    Xagon()
