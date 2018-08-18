@@ -1,4 +1,4 @@
-![](Xagon/assets/logo.png)
+![](logo_big.png)
 
 # Xagon
 
