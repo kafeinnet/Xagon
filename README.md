@@ -21,4 +21,8 @@ $ python setup.py build
 
 # Known issues
 
-On Archlinux with DWGL 3.2.x the game must be started as root.
+On Archlinux with DWGL 3.2.x the game must be started as root or the max user inotify watches must be increased (see [glfw#833](https://github.com/glfw/glfw/issues/833)).
+
+<pre>
+# sysctl -w fs.inotify.max_user_watches=16384
+</pre>
