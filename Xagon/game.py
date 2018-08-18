@@ -176,9 +176,10 @@ class Xagon:
         pyxel.blt(self.height + 11, 6, 0, 0, 0, 32, 16)
 
         # Help text, current level and score
-        pyxel.text(self.height + 11, 32, "Press R\nto start", 7)
-        pyxel.text(self.height + 11, 64, "Level {}".format(self.level + 1), 7)
-        pyxel.text(self.height + 11, 80, "Score :\n{}".format(self.score), 7)
+        pyxel.text(self.height + 11, 32, "Press R\nto start\n\n"
+                                         "Press Q\nto quit", 7)
+        pyxel.text(self.height + 11, 80, "Level {}".format(self.level + 1), 7)
+        pyxel.text(self.height + 11, 96, "Score :\n{}".format(self.score), 7)
 
         # Outter hexagon
         self.draw_hexagon(
